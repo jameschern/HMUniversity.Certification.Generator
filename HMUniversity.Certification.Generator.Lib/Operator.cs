@@ -19,7 +19,7 @@ namespace HMUniversity.Certification.Generator.Lib
             return d switch
             {
                 < 0 or >= 40 => throw new ArgumentOutOfRangeException(),
-                > 20 => GetTenOrdinal(d / 10) + "-" + ConvertToOrdinal(d % 10),
+                > 20 => d % 10 == 0 ? GetTenOrdinal(d / 10) : GetTenOrdinal(d / 10) + "-" + ConvertToOrdinal(d % 10),
                 _ => d switch
                 {
                     1 => "first",
