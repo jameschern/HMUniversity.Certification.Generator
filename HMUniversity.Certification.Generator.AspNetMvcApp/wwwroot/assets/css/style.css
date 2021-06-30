@@ -1,0 +1,62 @@
+@media (prefers-color-scheme: dark){
+    body {
+        color:white;
+        background: black;
+    }
+
+    .signature-box img {
+        filter: invert(1);
+    }
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14pt;
+    margin: auto;
+    padding: 0 10%;
+    max-width: 100vh;
+    justify-content: center;
+}
+
+body > * {
+    margin: 1em 0;
+}
+
+img {
+    object-fit: contain;
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.mention {
+    font-size: 18pt;
+}
+
+content {
+    text-align: center;
+}
+
+.logo {
+    width: 30%;
+    max-width: 180px;
+}
+
+.signature-box {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+}
+
+.signature-box > * {
+    max-width: 100%;
+    margin: 0.5em 0;
+    text-align: center;
+}
