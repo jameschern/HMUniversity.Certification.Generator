@@ -60,3 +60,15 @@ content {
     margin: 0.5em 0;
     text-align: center;
 }
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.less-half-width {
+    max-width: 70%;
+}
