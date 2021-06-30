@@ -72,3 +72,9 @@ content {
 .less-half-width {
     max-width: 70%;
 }
+
+.foot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
