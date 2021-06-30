@@ -2,58 +2,31 @@
 <html lang="en-GB">
 
 <head>
-    <meta charset="utf-8"/>
-    <title>Certification | Home University Sussex</title>
-    <link href="assets/css/style.css" type="text/css" rel="stylesheet"/>
-    <meta name="viewport"
-          content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <meta charset="utf-8" />
+  <title>Certification | Home University Sussex</title>
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" />
+  <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 </head>
 
 <body>
+  <img src="assets/img/HMUni.png" alt="logo">
 
-<img class="logo" src="assets/img/HMUni.png"/>
+  <p>It is hereby certified that</p>
+  <b>@ViewData["Owner"]</b>
+  <p>Was admitted to the Degree of</p>
+  <b>@ViewData["Degree"] of Lie Flat</b>
+  <p><i>First Class Honours</i></p>
+  <p>on the thirtieth of June 2021</p>
 
-<content>
-    <p>
-        It is hereby certified that
-    </p>
-    <p class="mention">
-        @ViewData["Owner"]
-    </p>
+  <div class="sign">
+    <div class="left"><img src="assets/img/kv.png" alt="kv's sign'">vice-chancellor and principal</div>
+    <div class="right"><img src="assets/img/ak.png" alt="ak's sign'">registrar and secretary</div>
+  </div>
 
-    <p>
-        Was admitted to the Degree of
-    </p>
-    <p class="mention">
-        @ViewData["Degree"] of Lie Flat
-    </p>
-    <p style="font-style:italic;">
-        with First Class Honours
-    </p>
-    <p>
-        on the @ViewData["Date"]
-    </p>
-</content>
-
-<div class="foot">
-    <div class="signature-box">
-        <img class="left less-half-width" src="assets/img/kv.png"/>
-
-        <img class="right less-half-width" src="assets/img/ak.png"/>
-
-        <p class="left less-half-width">
-            VICE-CHANCELLOR AND PRINCIPAL
-        </p>
-
-        <p class="right less-half-width">
-            REGISTRAR AND SECRETARY
-        </p>
-    </div>
-
-    <footer>
-        Home University, Greater Brighton, Sussex, United Kingdom
-    </footer>
-</div>
+  <footer>
+    Home University, Greater Brighton, Sussex, United Kingdom
+  </footer>
 </body>
 
 </html>

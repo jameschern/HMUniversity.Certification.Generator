@@ -2,42 +2,29 @@
 <html lang="en-GB">
 
 <head>
-    <meta charset="utf-8"/>
-    <title>Certification Application Home | Home University Sussex</title>
-    <link href="assets/css/style.css" type="text/css" rel="stylesheet"/>
-    <meta name="viewport"
-          content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <meta charset="utf-8" />
+  <title>Certification Application Home | Home University Sussex</title>
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" />
+  <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 </head>
 
-<style>
-    footer {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 2.5rem;
-    }
-</style>
 <body>
-<center>
-    <img class="logo" src="assets/img/HMUni.png"/>
-    <h1>Welcome to HM University Certification Application System</h1>
-    <p>
-        Please confirm that you have been in the organisation of Home Univeristy.
-        After generating your certification, you need to print it with an A4 paper or it will be scaled.
-    </p>
-    <form action="/Certification" method="post">
-        <span>Owner </span>
-        <input type="text" name="owner"/>
-        <br>
+  <img src="assets/img/HMUni.png" alt="logo">
+  <h1>Welcome to HM University Certification Application System</h1>
 
-        <span>Degree (Bachelor or Master) </span>
-        <input type="text" name="degree"/>
-        <br>
+  <p>Please confirm that you have been in the organisation of Home Univeristy. After generating your certification, you
+    need to print it with an A4 paper or it will be scaled.</p>
 
-        <input type="submit" value="Submit"/>
-    </form>
-</center>
-<footer>
+  <form action="/Certification" method="post">
+    <label>Owner <input type="text" name="owner" placeholder="Your name"></label>
+    <label>Degree<input type="text" name="degree" placeholder="Bachelor or Master"></label>
+    <button type="submit">Submit</button>
+  </form>
+
+  <footer>
     Home University, Greater Brighton, Sussex, United Kingdom
-</footer>
+  </footer>
 </body>
+
+</html>
